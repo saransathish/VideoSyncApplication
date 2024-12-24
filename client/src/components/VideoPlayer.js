@@ -1,7 +1,7 @@
 import React, { useRef, useEffect } from "react";
 import { io } from "socket.io-client";
 
-const socket = io("http://localhost:5000"); // Backend URL
+const socket = io("https://videosyncapplication.onrender.com"); // Backend URL
 
 const VideoPlayer = () => {
   const videoRef = useRef(null);
