@@ -1,10 +1,8 @@
+import eventlet
+eventlet.monkey_patch()
 from flask import Flask
 from flask_socketio import SocketIO, emit
 from flask_cors import CORS
-import eventlet
-
-# Apply monkey patching to support eventlet
-eventlet.monkey_patch()
 
 app = Flask(__name__)
 
