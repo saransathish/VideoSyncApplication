@@ -1,10 +1,10 @@
 import React from "react";
 import VideoPlayer from "./components/VideoPlayer";
+import "./App.css"; // Import CSS for styling
 
 function App() {
   return (
-    <div>
-      <h1>Sync Video Player</h1>
+    <div className="app-container">
       <VideoPlayer />
     </div>
   );

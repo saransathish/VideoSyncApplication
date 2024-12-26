@@ -1,12 +1,25 @@
 .video-player-container {
-    max-width: 800px;
+    /* max-width: 900px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 20px; */
+    /* padding: 30px; */
+    color: whitesmoke;
+    font-size: medium;
   }
   
   .join-form {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    /* display: ; */
   }
+  .inputbox{
+    height: 25px;
+  }
+
   
   .join-form input {
     padding: 8px;
@@ -16,42 +29,53 @@
     max-width: 300px;
     border: 1px solid #ccc;
     border-radius: 4px;
+    align-items: center;
+    justify-content: center;
   }
   
   .primary-button {
+    height: 40px;
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #0b5730;
     color: white;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 15px;
   }
   
   .primary-button:disabled {
-    background-color: #ccc;
+    background-color: #f85a5a;
     cursor: not-allowed;
   }
   
   .room-info {
+    margin-left: 50px;
+    margin-top: 2px;
     margin-bottom: 20px;
   }
   
   .member-list {
     list-style: none;
-    padding: 0;
+    padding: 10;
   }
   
   .member-list li {
-    margin-bottom: 5px;
+    margin-bottom: 10px;
   }
   
   .file-input {
+    margin-top: 50px;
     margin-bottom: 20px;
+    margin-left: 50px;
   }
   
   .video-container {
-    position: relative;
-    width: 100%;
+    align-self: center;
+    align-items: center;
+    align-items: center;
+    /* position: relative; */
+    width: 80%;
     margin-bottom: 20px;
   }
   
@@ -92,7 +116,7 @@
   
   .control-button {
     padding: 8px 16px;
-    background-color: #007bff;
+    background-color: #167011;
     color: white;
     border: none;
     border-radius: 4px;
@@ -101,16 +125,17 @@
   }
   
   .control-button:hover {
-    background-color: #0056b3;
+    background-color: #034828;
   }
   
   .connection-status {
     margin-top: 20px;
-    text-align: center;
+    text-align: right;
     font-weight: bold;
   }
   
   .connected {
+    font-size: 15px;
     color: green;
   }
   
@@ -123,7 +148,7 @@
     width: 100vw;
     height: 100vh;
     padding: 20px;
-    background-color: black;
+    /* background-color: black; */
     display: flex;
     flex-direction: column;
   }
@@ -140,4 +165,21 @@
     left: 20px;
     right: 20px;
     z-index: 1000;
+  }
+
+  .newback {
+    background-image: url('../images/background2.jpg');
+    background-size: cover;
+    min-height: 102vh;
+    height: 100%; /* Full viewport height */
+    width: 100%;
+    display: block;
+    margin-top: -20px;
+    padding-top: 0px;
+
+  }
+
+  .app-titl{
+    font-size: 45px;
+    margin-top: -5px;
   }
