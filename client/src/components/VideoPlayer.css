@@ -1,0 +1,143 @@
+.video-player-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .join-form {
+    margin-bottom: 20px;
+  }
+  
+  .join-form input {
+    padding: 8px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .primary-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .primary-button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .room-info {
+    margin-bottom: 20px;
+  }
+  
+  .member-list {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .member-list li {
+    margin-bottom: 5px;
+  }
+  
+  .file-input {
+    margin-bottom: 20px;
+  }
+  
+  .video-container {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .video-container video {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .video-controls {
+    position: relative;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+  }
+  
+  .progress-bar {
+    margin-bottom: 10px;
+  }
+  
+  .progress-bar input[type="range"] {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+  
+  .time-display {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    font-size: 14px;
+  }
+  
+  .control-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .control-button {
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .control-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .connection-status {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .connected {
+    color: green;
+  }
+  
+  .disconnected {
+    color: red;
+  }
+  
+  /* Fullscreen styles */
+  .video-container:fullscreen {
+    width: 100vw;
+    height: 100vh;
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .video-container:fullscreen video {
+    flex-grow: 1;
+    height: calc(100vh - 150px);
+    object-fit: contain;
+  }
+  
+  .video-container:fullscreen .video-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
