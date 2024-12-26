@@ -30,7 +30,7 @@ const VideoPlayer1 = () => {
   }, []);
 
   const connectWebSocket = () => {
-    wsRef.current = new WebSocket('ws://localhost:8080');
+    wsRef.current = new WebSocket('ws://videosyncapplication.onrender.com');
 
     wsRef.current.onopen = () => {
       console.log('Connected to WebSocket server');
