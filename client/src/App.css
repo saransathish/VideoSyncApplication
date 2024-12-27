@@ -1,5 +1,5 @@
 .app-container {
-  background-image: url('./images/background.jpg');
+  background-image: url('./images/mobile.jpeg');
   background-size: cover;
   background-position: center;
   height: 100vh; /* Full viewport height */
@@ -19,3 +19,10 @@
   /* align-items: center; */
   justify-content: center;
 }
+
+/* @media (min-width: 900px) {
+  .app-container {
+    background-image: url('./images/mobile.jpeg');
+    
+  }
+} */

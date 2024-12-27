@@ -168,7 +168,7 @@
   }
 
   .newback {
-    background-image: url('../images/background2.jpg');
+    background-image: url('../images/mobile.jpeg');
     background-size: cover;
     min-height: 102vh;
     height: 100%; /* Full viewport height */
@@ -183,3 +183,5 @@
     font-size: 45px;
     margin-top: -5px;
   }
+
+  
